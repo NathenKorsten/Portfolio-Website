@@ -104,6 +104,15 @@ body .intro {
   color: #8c8c8c;
 }
 
+.view-cv a {
+  color: white;
+  text-decoration: none;
+}
+
+.view-cv a :hover {
+  color: black !important;
+}
+
 .links {
   /* border: 2px solid red; */
   height: 50px;
@@ -200,10 +209,12 @@ a {
   text-transform: capitalize;
   border: 2px solid white;
   cursor: pointer;
+  transition: 250ms ease-in-out;
 }
 .nathen-about .view-cv:hover {
-  background-color: white;
+  /* background-color: white; */
   color: black;
+  transform: scale(1.1);
 }
 
 /* ***************************************************************************Projects */
