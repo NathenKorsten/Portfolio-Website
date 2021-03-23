@@ -1,3 +1,9 @@
+let spinner = document.getElementById("spinner");
+
+window.addEventListener("load", () => {
+  spinner.parentElement.removeChild(spinner);
+});
+
 var h = document.documentElement,
   b = document.body,
   st = "scrollTop",
